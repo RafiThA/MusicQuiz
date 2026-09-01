@@ -1,0 +1,7 @@
+allowBuilds:
+  better-sqlite3: true
+  electron-winstaller: true
+  esbuild: true
+  lzma-native: true
+  phantomjs-prebuilt: true
+  sqlite3: true

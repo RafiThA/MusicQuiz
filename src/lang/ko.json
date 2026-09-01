@@ -1,0 +1,84 @@
+{
+    "home": {
+        "choose_album": "앨범 선택",
+        "play_button": "플레이"
+    },
+
+    "lobby": {
+        "back_button": "뒤로",
+        "start_game_button": "게임 시작",
+        "players": "플레이어",
+        "selected_albums": "선택된 앨범",
+        "game_config": "게임 설정"
+    },
+
+    "game": {
+        "round": "라운드",
+        "attempts": "시도 횟수",
+        "skipped": "건너뜀",
+        "guess_button": "정답 제출",
+        "skip_button": "건너뛰기",
+        "exit_button": "게임 종료",
+
+        "summary": "요약",
+        "correct_guess_label": "정답",
+        "incorrect_guess_label": "오답",
+        "the_song_was": "정답 곡:",
+        "total_points_earned_this_round": "이번 라운드 획득 총점",
+        "continue_button": "계속",
+
+        "game_over": "게임 오버",
+        "precision": "정확도",
+        "failures": "실패",
+        "skips": "건너뛰기 횟수",
+        "back_to_lobby_button": "로비로 돌아가기",
+
+        "player_reached_target_score_of": "님이 목표 점수에 도달했습니다:",
+        "points": "점",
+        "no_more_songs_to_play": "더 이상 재생할 노래가 없습니다"
+    },
+
+    "settings": {
+        "title": "설정",
+        "language": "언어",
+        "language_tooltip": "사용 가능한 옵션 중에서 게임 언어를 변경합니다",
+        "theme": "테마",
+        "theme_tooltip": "게임의 색상 테마를 변경합니다"
+    },
+
+    "album_library": {
+        "select_all": "전체 선택",
+        "deselect_all": "전체 해제"
+    },
+
+    "players": {
+        "input_placeholder": "플레이어 이름"
+    },
+
+    "game_config": {
+        "guess_points": "정답 점수",
+        "guess_points_tooltip": "노래를 맞혔을 때 지급되는 점수",
+        "fail_penalty": "오답 감점",
+        "fail_penalty_tooltip": "노래 맞히기에 실패했을 때 감점되는 점수",
+        "skip_penalty": "건너뛰기 감점",
+        "skip_penalty_tooltip": "'건너뛰기' 버튼을 눌렀을 때 감점되는 점수",
+        "playback_type": "재생 방식",
+        "playback_type_tooltip": "노래 재생 시작 위치",
+        "playback_type_options": {
+            "random-start": "랜덤 위치부터",
+            "from-start": "처음부터"
+        },
+        "target_score": "목표 점수",
+        "target_score_tooltip": "게임에서 승리하기 위해 달성해야 하는 점수"
+    },
+
+    "song_selector": {
+        "no_songs_found": "노래를 찾을 수 없습니다",
+        "search_placeholder": "노래 검색..."
+    },
+
+    "common": {
+        "loading": "로딩 중",
+        "seg": "초"
+    }
+}

@@ -1,0 +1,32 @@
+.home {
+
+    width: 100dvw;
+    height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(to bottom, var(--darkest-theme-color) 50%, #000000);
+}
+
+.home h1 {
+
+    font-size: 5rem;
+
+    background: linear-gradient(to bottom, var(--light-theme-color), var(--app-theme-color));
+    background-clip: text;
+    color: transparent;
+
+    padding: 1rem 0rem 4rem 0rem;
+}
+
+.home .subtitle {
+
+    font-size: 1.5rem;
+
+    color: white;
+    font-weight: 600;
+
+    padding-bottom: 1rem;
+}

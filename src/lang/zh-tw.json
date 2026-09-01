@@ -1,0 +1,84 @@
+{
+    "home": {
+        "choose_album": "選擇專輯",
+        "play_button": "開始"
+    },
+
+    "lobby": {
+        "back_button": "返回",
+        "start_game_button": "開始遊戲",
+        "players": "玩家",
+        "selected_albums": "已選專輯",
+        "game_config": "遊戲設定"
+    },
+
+    "game": {
+        "round": "回合",
+        "attempts": "嘗試次數",
+        "skipped": "已跳過",
+        "guess_button": "猜測",
+        "skip_button": "跳過",
+        "exit_button": "退出",
+
+        "summary": "結算",
+        "correct_guess_label": "回答正確",
+        "incorrect_guess_label": "回答錯誤",
+        "the_song_was": "這首歌是",
+        "total_points_earned_this_round": "本回合獲得的總積分",
+        "continue_button": "繼續",
+
+        "game_over": "遊戲結束",
+        "precision": "準確率",
+        "failures": "失敗次數",
+        "skips": "跳過次數",
+        "back_to_lobby_button": "返回大廳",
+
+        "player_reached_target_score_of": "已達到目標分數",
+        "points": "分",
+        "no_more_songs_to_play": "沒有更多歌曲了"
+    },
+
+    "settings": {
+        "title": "設定",
+        "language": "語言",
+        "language_tooltip": "從可用選項中變更遊戲語言",
+        "theme": "主題",
+        "theme_tooltip": "變更遊戲的主題配色"
+    },
+
+    "album_library": {
+        "select_all": "全選",
+        "deselect_all": "取消全選"
+    },
+
+    "players": {
+        "input_placeholder": "玩家名稱"
+    },
+
+    "game_config": {
+        "guess_points": "猜對得分",
+        "guess_points_tooltip": "正確猜出歌曲所獲得的積分",
+        "fail_penalty": "猜錯扣分",
+        "fail_penalty_tooltip": "未猜出歌曲所扣除的積分",
+        "skip_penalty": "跳過扣分",
+        "skip_penalty_tooltip": "點擊「跳過」按鈕所扣除的積分",
+        "playback_type": "播放模式",
+        "playback_type_tooltip": "歌曲播放的起始位置",
+        "playback_type_options": {
+            "random-start": "隨機起點",
+            "from-start": "從頭播放"
+        },
+        "target_score": "目標分數",
+        "target_score_tooltip": "贏得遊戲所需達到的分數"
+    },
+
+    "song_selector": {
+        "no_songs_found": "未找到歌曲",
+        "search_placeholder": "搜尋歌曲..."
+    },
+
+    "common": {
+        "loading": "載入中",
+        "seg": "秒"
+    }
+}

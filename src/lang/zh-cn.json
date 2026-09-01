@@ -1,0 +1,84 @@
+{
+    "home": {
+        "choose_album": "选择专辑",
+        "play_button": "开始"
+    },
+
+    "lobby": {
+        "back_button": "返回",
+        "start_game_button": "开始游戏",
+        "players": "玩家",
+        "selected_albums": "已选专辑",
+        "game_config": "游戏设置"
+    },
+
+    "game": {
+        "round": "回合",
+        "attempts": "尝试次数",
+        "skipped": "已跳过",
+        "guess_button": "猜测",
+        "skip_button": "跳过",
+        "exit_button": "退出",
+
+        "summary": "结算",
+        "correct_guess_label": "回答正确",
+        "incorrect_guess_label": "回答错误",
+        "the_song_was": "这首歌是",
+        "total_points_earned_this_round": "本轮获得的总积分",
+        "continue_button": "继续",
+
+        "game_over": "游戏结束",
+        "precision": "准确率",
+        "failures": "失败次数",
+        "skips": "跳过次数",
+        "back_to_lobby_button": "返回大厅",
+
+        "player_reached_target_score_of": "已达到目标分数",
+        "points": "分",
+        "no_more_songs_to_play": "没有更多歌曲了"
+    },
+
+    "settings": {
+        "title": "设置",
+        "language": "语言",
+        "language_tooltip": "从可用选项中更改游戏语言",
+        "theme": "主题",
+        "theme_tooltip": "更改游戏的主题配色"
+    },
+
+    "album_library": {
+        "select_all": "全选",
+        "deselect_all": "取消全选"
+    },
+
+    "players": {
+        "input_placeholder": "玩家名称"
+    },
+
+    "game_config": {
+        "guess_points": "猜对得分",
+        "guess_points_tooltip": "正确猜出歌曲所获得的积分",
+        "fail_penalty": "猜错扣分",
+        "fail_penalty_tooltip": "未猜出歌曲所扣除的积分",
+        "skip_penalty": "跳过扣分",
+        "skip_penalty_tooltip": "点击“跳过”按钮所扣除的积分",
+        "playback_type": "播放模式",
+        "playback_type_tooltip": "歌曲播放的起始位置",
+        "playback_type_options": {
+            "random-start": "随机起点",
+            "from-start": "从头播放"
+        },
+        "target_score": "目标分数",
+        "target_score_tooltip": "赢得游戏所需达到的分数"
+    },
+
+    "song_selector": {
+        "no_songs_found": "未找到歌曲",
+        "search_placeholder": "搜索歌曲..."
+    },
+
+    "common": {
+        "loading": "加载中",
+        "seg": "秒"
+    }
+}

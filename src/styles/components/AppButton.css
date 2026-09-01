@@ -1,0 +1,57 @@
+.app-button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.5rem;
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    width: fit-content;
+    height: 3rem;
+
+    background: linear-gradient(to bottom, var(--app-theme-color), var(--darker-theme-color));
+    
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    
+    border-radius: 1rem;
+    border: none;
+
+    cursor: pointer;
+
+    outline: none;
+
+    transition: all 0.15s ease-in-out;
+}
+
+.app-button:hover {
+
+    filter: brightness(1.25);
+}
+
+.app-button:active {
+    scale: 0.98;
+    filter: brightness(0.90);
+}
+
+.app-button:disabled {
+
+    filter: grayscale(0.85);
+    cursor: default;
+}
+
+.app-button.small {
+    width: 5rem;
+}
+
+.app-button.medium {
+    width: 10rem;
+}
+
+.app-button.large {
+    width: 15rem;
+}

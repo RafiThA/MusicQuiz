@@ -1,0 +1,84 @@
+{
+    "home": {
+        "choose_album": "アルバム選択",
+        "play_button": "プレイ"
+    },
+
+    "lobby": {
+        "back_button": "戻る",
+        "start_game_button": "ゲーム開始",
+        "players": "プレイヤー",
+        "selected_albums": "選択中のアルバム",
+        "game_config": "ゲーム設定"
+    },
+
+    "game": {
+        "round": "ラウンド",
+        "attempts": "試行回数",
+        "skipped": "スキップ済み",
+        "guess_button": "回答",
+        "skip_button": "スキップ",
+        "exit_button": "終了",
+
+        "summary": "サマリー",
+        "correct_guess_label": "正解",
+        "incorrect_guess_label": "不正解",
+        "the_song_was": "正解の曲",
+        "total_points_earned_this_round": "このラウンドで獲得した合計ポイント",
+        "continue_button": "次へ",
+
+        "game_over": "ゲームオーバー",
+        "precision": "正解率",
+        "failures": "失敗",
+        "skips": "スキップ数",
+        "back_to_lobby_button": "ロビーに戻る",
+
+        "player_reached_target_score_of": "が目標スコアに到達しました:",
+        "points": "ポイント",
+        "no_more_songs_to_play": "再生できる曲がありません"
+    },
+
+    "settings": {
+        "title": "設定",
+        "language": "言語",
+        "language_tooltip": "利用可能なオプションからゲームの言語を変更します",
+        "theme": "テーマ",
+        "theme_tooltip": "ゲームのカラーテーマを変更します"
+    },
+
+    "album_library": {
+        "select_all": "すべて選択",
+        "deselect_all": "すべての選択を解除"
+    },
+
+    "players": {
+        "input_placeholder": "プレイヤー名"
+    },
+
+    "game_config": {
+        "guess_points": "正解ポイント",
+        "guess_points_tooltip": "曲を正しく当てた際に獲得できるポイント数",
+        "fail_penalty": "不正解ペナルティ",
+        "fail_penalty_tooltip": "曲の回答に失敗した際に減点されるポイント数",
+        "skip_penalty": "スキップペナルティ",
+        "skip_penalty_tooltip": "「スキップ」ボタンを押した際に減点されるポイント数",
+        "playback_type": "再生タイプ",
+        "playback_type_tooltip": "楽曲再生の開始位置",
+        "playback_type_options": {
+            "random-start": "ランダムスタート",
+            "from-start": "最初から"
+        },
+        "target_score": "目標スコア",
+        "target_score_tooltip": "ゲームに勝利するために到達すべきスコア"
+    },
+
+    "song_selector": {
+        "no_songs_found": "曲が見つかりません",
+        "search_placeholder": "曲を検索..."
+    },
+
+    "common": {
+        "loading": "読み込み中",
+        "seg": "秒"
+    }
+}

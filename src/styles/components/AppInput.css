@@ -1,0 +1,74 @@
+.app-input {
+    
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+
+    height: 2.5rem;
+    width: 100%;
+
+    padding: 0rem 1rem;
+    
+    background: color-mix(in srgb, white 20%, transparent);
+    
+    border-radius: 0.5rem;
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+
+    cursor: pointer;
+    outline: none;
+
+    transition: all 0.15s ease-in-out;
+}
+
+.app-input:focus {
+    
+    outline: none;
+
+    background: color-mix(in srgb, var(--app-theme-color) 10%, transparent);
+
+    border: 1px solid color-mix(in srgb, var(--lighter-theme-color) 20%, transparent);
+}
+
+.app-input::placeholder {
+    color: color-mix(in srgb, white 60%, transparent);
+    font-weight: 600;
+}
+
+.app-input-button {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 1rem;
+
+    padding: 0.5rem;
+
+    height: 2.5rem;
+    aspect-ratio: 1/1;
+
+    border-radius: 0.5rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+
+    transition: all 0.15s ease-in-out;
+
+    cursor: pointer;
+}
+
+.app-input-button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.app-input-button:hover {
+
+    background: color-mix(in srgb, white 20%, transparent);
+}
+
+.app-input-button.invisible {
+    opacity: 0;
+    pointer-events: none;
+}

@@ -1,0 +1,78 @@
+.game-config {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+
+    color: white;
+    font-weight: 600;
+
+    overflow: hidden;
+    overflow-y: auto;
+
+    gap: 1rem;
+    
+    width: 100%;
+    height: 100%;
+
+    border-radius: 1rem;
+
+    padding: 1rem 1.5rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+
+}
+
+.game-config .item {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+    gap: 1rem;
+
+    padding: 1rem 0;
+    
+    width: 100%;
+    height: fit-content;
+}
+
+.game-config .item span {
+
+    width: 10rem;
+}
+
+/* React-Tooltip */
+.game-config .item .tooltip {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 0.8rem;
+    font-weight: 600;
+
+    color: white;
+
+    background: var(--darkest-theme-color);
+
+    width: fit-content;
+    height: fit-content;
+
+    max-width: 20rem;
+
+    border-radius: 1rem;
+
+    padding: 0.25rem 0.5rem;
+
+    --rt-opacity: 1;
+    z-index: 3000;
+}

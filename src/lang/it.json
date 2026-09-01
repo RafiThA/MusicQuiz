@@ -1,0 +1,84 @@
+{
+    "home": {
+        "choose_album": "Selezione album",
+        "play_button": "Gioca"
+    },
+
+    "lobby": {
+        "back_button": "Indietro",
+        "start_game_button": "Inizia partita",
+        "players": "Giocatori",
+        "selected_albums": "Album selezionati",
+        "game_config": "Configurazione partita"
+    },
+
+    "game": {
+        "round": "Round",
+        "attempts": "Tentativi",
+        "skipped": "Saltate",
+        "guess_button": "Indovina",
+        "skip_button": "Salta",
+        "exit_button": "Esci",
+
+        "summary": "Riepilogo",
+        "correct_guess_label": "RISPOSTA CORRETTA",
+        "incorrect_guess_label": "RISPOSTA ERRATA",
+        "the_song_was": "La canzone era",
+        "total_points_earned_this_round": "Punti totali guadagnati in questo round",
+        "continue_button": "Continua",
+
+        "game_over": "Fine partita",
+        "precision": "Precisione",
+        "failures": "Errori",
+        "skips": "Salti",
+        "back_to_lobby_button": "Torna alla lobby",
+
+        "player_reached_target_score_of": "ha raggiunto il punteggio obiettivo di",
+        "points": "punti",
+        "no_more_songs_to_play": "Nessun'altra canzone da riprodurre"
+    },
+
+    "settings": {
+        "title": "Impostazioni",
+        "language": "Lingua",
+        "language_tooltip": "Modifica la lingua del gioco tra le opzioni disponibili",
+        "theme": "Tema",
+        "theme_tooltip": "Modifica il tema dei colori del gioco"
+    },
+
+    "album_library": {
+        "select_all": "Seleziona tutto",
+        "deselect_all": "Deseleziona tutto"
+    },
+
+    "players": {
+        "input_placeholder": "Nome giocatore"
+    },
+
+    "game_config": {
+        "guess_points": "Punti per risposta corretta",
+        "guess_points_tooltip": "Quantità di punti assegnati quando si indovina una canzone",
+        "fail_penalty": "Penalità per errore",
+        "fail_penalty_tooltip": "Quantità di punti detratti per non aver indovinato una canzone",
+        "skip_penalty": "Penalità per salto",
+        "skip_penalty_tooltip": "Quantità di punti detratti premendo il pulsante «Salta»",
+        "playback_type": "Tipo di riproduzione",
+        "playback_type_tooltip": "Punto di inizio della riproduzione del brano",
+        "playback_type_options": {
+            "random-start": "Inizio casuale",
+            "from-start": "Dall'inizio"
+        },
+        "target_score": "Punteggio obiettivo",
+        "target_score_tooltip": "Punteggio che un giocatore deve raggiungere per vincere la partita"
+    },
+
+    "song_selector": {
+        "no_songs_found": "Nessuna canzone trovata",
+        "search_placeholder": "Cerca canzoni..."
+    },
+
+    "common": {
+        "loading": "Caricamento",
+        "seg": "sec"
+    }
+}

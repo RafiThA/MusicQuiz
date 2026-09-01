@@ -1,0 +1,84 @@
+{
+    "home": {
+        "choose_album": "Sélection d'albums",
+        "play_button": "Jouer"
+    },
+
+    "lobby": {
+        "back_button": "Retour",
+        "start_game_button": "Démarrer la partie",
+        "players": "Joueurs",
+        "selected_albums": "Albums sélectionnés",
+        "game_config": "Configuration de la partie"
+    },
+
+    "game": {
+        "round": "Manche",
+        "attempts": "Tentatives",
+        "skipped": "Passées",
+        "guess_button": "Deviner",
+        "skip_button": "Passer",
+        "exit_button": "Quitter",
+
+        "summary": "Résumé",
+        "correct_guess_label": "BONNE RÉPONSE",
+        "incorrect_guess_label": "MAUVAISE RÉPONSE",
+        "the_song_was": "La chanson était",
+        "total_points_earned_this_round": "Total des points gagnés cette manche",
+        "continue_button": "Continuer",
+
+        "game_over": "Fin de partie",
+        "precision": "Précision",
+        "failures": "Échecs",
+        "skips": "Passes",
+        "back_to_lobby_button": "Retour au salon",
+
+        "player_reached_target_score_of": "a atteint le score cible de",
+        "points": "points",
+        "no_more_songs_to_play": "Plus de chansons à jouer"
+    },
+
+    "settings": {
+        "title": "Configuration",
+        "language": "Langue",
+        "language_tooltip": "Change la langue du jeu parmi les options disponibles",
+        "theme": "Thème",
+        "theme_tooltip": "Change le thème de couleurs du jeu"
+    },
+
+    "album_library": {
+        "select_all": "Tout sélectionner",
+        "deselect_all": "Tout désélectionner"
+    },
+
+    "players": {
+        "input_placeholder": "Nom du joueur"
+    },
+
+    "game_config": {
+        "guess_points": "Points de réussite",
+        "guess_points_tooltip": "Nombre de points attribués pour avoir deviné correctement une chanson",
+        "fail_penalty": "Pénalité en cas d'échec",
+        "fail_penalty_tooltip": "Nombre de points déduits en cas d'échec pour deviner une chanson",
+        "skip_penalty": "Pénalité pour avoir passé",
+        "skip_penalty_tooltip": "Nombre de points déduits en appuyant sur le bouton « Passer »",
+        "playback_type": "Type de lecture",
+        "playback_type_tooltip": "Point de départ de la lecture de la chanson",
+        "playback_type_options": {
+            "random-start": "Début aléatoire",
+            "from-start": "Depuis le début"
+        },
+        "target_score": "Score cible",
+        "target_score_tooltip": "Score qu'un joueur doit atteindre pour gagner la partie"
+    },
+
+    "song_selector": {
+        "no_songs_found": "Aucune chanson trouvée",
+        "search_placeholder": "Rechercher des chansons..."
+    },
+
+    "common": {
+        "loading": "Chargement",
+        "seg": "sec"
+    }
+}

@@ -1,0 +1,126 @@
+{
+	"name": "MusicQuiz",
+	"private": true,
+	"version": "0.1.2-beta",
+	"description": "None",
+	"main": "./out/main/index.js",
+	"author": "Rafael Molleja Jiménez",
+	"year": "2026",
+	"license": "MIT",
+	"type": "module",
+	"desktopName": "com.rmj.musicquiz",
+	"homepage": "none",
+	"scripts": {
+		"start": "electron-vite preview",
+		"dev": "electron-vite dev",
+		"build": "electron-vite build",
+		"lint": "oxlint",
+	
+		"compile-all": "pnpm clear-sqlite-build && pnpm clear-build && pnpm compile-windows && pnpm compile-mac && pnpm compile-linux",
+		
+		"compile-windows": "pnpm clear-sqlite-build && pnpm build && npm_config_target_platform=win32 npm_config_target_arch=x64 electron-builder install-app-deps --platform=win32 --arch=x64 && electron-builder -w --x64",
+			
+		"compile-linux": "pnpm clear-sqlite-build && pnpm build && npm_config_target_platform=linux npm_config_target_arch=x64 electron-builder install-app-deps --platform=linux --arch=x64 && electron-builder -l",
+			
+		"compile-mac": "pnpm clear-sqlite-build &&pnpm build && npm_config_target_platform=darwin npm_config_target_arch=arm64 electron-builder install-app-deps --platform=darwin --arch=arm64 && electron-builder -m",
+			
+		"icons": "electron-icon-builder --input=public/icon.png --output=public",
+		"clear-build": "rm -rf out && rm -rf dist",
+		"clear-sqlite-build": "rm -rf node_modules/sqlite3/build",
+		"check-sql-dep": "file node_modules/sqlite3/build/Release/node_sqlite3.node",
+		"postinstall": "pnpm clear-sqlite-build && electron-builder install-app-deps"
+	},
+	"build": {
+		"appId": "com.rmj.musicquiz",
+    
+		"productName": "Music Quiz",
+
+    "npmRebuild": true,
+
+    "buildDependenciesFromSource": false,
+
+		"directories": {
+			"buildResources": "public"
+		},
+
+		"asarUnpack": [
+			"**/node_modules/sqlite3/**"
+		],
+
+		"linux": {
+			"target": [
+				"AppImage",
+				"deb",
+				"snap"
+			],
+			"icon": "public/icons/png",
+			"category": "Game",
+			"desktop": {
+				"entry": {
+					"Name": "Music Quiz",
+					"Comment": "An amazing application",
+					"Categories": "Game;",
+					"StartupWMClass": "com.rmj.musicquiz",
+					"Terminal": false,
+					"Type": "Application",
+					"Keywords": "music;game;guessing;"
+				},
+				"desktopActions": {}
+			},
+			"syncDesktopName": true,
+			"synopsis": "Brief desc",
+			"description": "None",
+			"maintainer": "Rafael Molleja Jiménez",
+			"vendor": "Rafael Molleja Jiménez"
+		},
+		"win": {
+			"target": [
+				{
+					"target": "portable",
+					"arch": [
+						"x64"
+					]
+				}
+			],
+			"icon": "public/icons/win/icon.ico"
+		},
+		"mac": {
+			"target": [
+				{
+					"target": "zip",
+					"arch": [
+						"arm64"
+					]
+				}
+			],
+			"icon": "public/icons/mac/icon.icns"
+		}
+	},
+	"dependencies": {
+		"bootstrap-icons": "^1.13.1",
+		"music-metadata": "^11.15.0",
+		"node-id3": "^0.2.9",
+		"react": "^19.2.8",
+		"react-dom": "^19.2.8",
+		"react-router-dom": "^7.18.2",
+		"react-tooltip": "^6.0.8",
+		"sqlite": "^5.1.1",
+		"sqlite3": "^6.0.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.29.7",
+		"@types/babel__core": "^7.20.5",
+		"@types/node": "^24.13.3",
+		"@types/react": "^19.2.18",
+		"@types/react-dom": "^19.2.4",
+		"@vitejs/plugin-react": "^5.2.0",
+		"babel-plugin-react-compiler": "^1.0.0",
+		"electron": "^43.4.1",
+		"electron-builder": "^26.15.3",
+		"electron-icon-builder": "^2.0.1",
+		"electron-vite": "^5.0.0",
+		"oxlint": "^1.79.0",
+		"typescript": "~6.0.3",
+		"vite": "^7.3.6"
+	}
+}

@@ -1,0 +1,97 @@
+.lobby {
+
+    width: 100dvw;
+    height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+
+    background: linear-gradient(to bottom, var(--darkest-theme-color) 50%, #000000);
+}
+
+.lobby h1 {
+
+    font-size: 2.5rem;
+
+    background: linear-gradient(to bottom, var(--light-theme-color), var(--app-theme-color));
+    background-clip: text;
+    color: transparent;
+
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.lobby .subtitle {
+
+    font-size: 1.5rem;
+
+    color: white;
+    font-weight: 600;
+
+    padding-bottom: 1rem;
+}
+
+.lobby .parent {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    overflow: hidden;
+
+    height: 100%;
+    width: auto;
+
+    gap: 1rem;
+
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+.lobby .child {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+
+    height: 100%;
+    width: 100%;
+
+    border-radius: 1rem;
+
+    padding: 1rem 1.5rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+
+    overflow: hidden;
+}
+
+.lobby .child.right {
+
+    padding-bottom: 0rem;
+}
+
+.lobby .section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+
+    overflow: hidden;
+
+    height: 100%;
+    width: 100%;
+}
+
+.lobby .parent .child .divider {
+
+    height: 4rem;
+    background: transparent;
+}

@@ -1,0 +1,84 @@
+{
+    "home": {
+        "choose_album": "Seleccionar álbumes",
+        "play_button": "Jugar"
+    },
+
+    "lobby": {
+        "back_button": "Atrás",
+        "start_game_button": "Iniciar juego",
+        "players": "Jugadores",
+        "selected_albums": "Álbumes seleccionados",
+        "game_config": "Configuración del juego"
+    },
+
+    "game": {
+        "round": "Ronda",
+        "attempts": "Intentos",
+        "skipped": "Omitidas",
+        "guess_button": "Adivinar",
+        "skip_button": "Omitir",
+        "exit_button": "Salir",
+
+        "summary": "Resumen",
+        "correct_guess_label": "ACIERTO",
+        "incorrect_guess_label": "INCORRECTO",
+        "the_song_was": "La canción era",
+        "total_points_earned_this_round": "Puntos totales ganados en esta ronda",
+        "continue_button": "Continuar",
+
+        "game_over": "Juego terminado",
+        "precision": "Precisión",
+        "failures": "Errores",
+        "skips": "Omisiones",
+        "back_to_lobby_button": "Volver al lobby",
+
+        "player_reached_target_score_of": "ha alcanzado el puntaje meta de",
+        "points": "puntos",
+        "no_more_songs_to_play": "No hay más canciones para jugar"
+    },
+
+    "settings": {
+        "title": "Configuración",
+        "language": "Idioma",
+        "language_tooltip": "Cambia el idioma del juego entre las opciones disponibles",
+        "theme": "Tema",
+        "theme_tooltip": "Cambia el tema de colores del juego"
+    },
+
+    "album_library": {
+        "select_all": "Seleccionar todo",
+        "deselect_all": "Deseleccionar todo"
+    },
+
+    "players": {
+        "input_placeholder": "Nombre del jugador"
+    },
+
+    "game_config": {
+        "guess_points": "Puntos por acierto",
+        "guess_points_tooltip": "Cantidad de puntos otorgados por adivinar correctamente una canción",
+        "fail_penalty": "Penalización por error",
+        "fail_penalty_tooltip": "Cantidad de puntos deducidos por no adivinar una canción",
+        "skip_penalty": "Penalización por omitir",
+        "skip_penalty_tooltip": "Cantidad de puntos deducidos por presionar el botón \"Omitir\"",
+        "playback_type": "Tipo de reproducción",
+        "playback_type_tooltip": "Punto de inicio de la reproducción de la canción",
+        "playback_type_options": {
+            "random-start": "Inicio aleatorio",
+            "from-start": "Desde el inicio"
+        },
+        "target_score": "Puntaje meta",
+        "target_score_tooltip": "Puntaje que un jugador debe alcanzar para ganar el juego"
+    },
+
+    "song_selector": {
+        "no_songs_found": "No se encontraron canciones",
+        "search_placeholder": "Buscar canciones..."
+    },
+
+    "common": {
+        "loading": "Cargando",
+        "seg": "seg"
+    }
+}

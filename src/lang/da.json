@@ -1,0 +1,84 @@
+{
+    "home": {
+        "choose_album": "Vælg album",
+        "play_button": "Spil"
+    },
+
+    "lobby": {
+        "back_button": "Tilbage",
+        "start_game_button": "Start spil",
+        "players": "Spillere",
+        "selected_albums": "Valgte album",
+        "game_config": "Spilkonfiguration"
+    },
+
+    "game": {
+        "round": "Runde",
+        "attempts": "Forsøg",
+        "skipped": "Sprunget over",
+        "guess_button": "Gæt",
+        "skip_button": "Spring over",
+        "exit_button": "Afslut",
+
+        "summary": "Oversigt",
+        "correct_guess_label": "KORREKT GÆT",
+        "incorrect_guess_label": "FORKERT GÆT",
+        "the_song_was": "Sangen var",
+        "total_points_earned_this_round": "Samlede point optjent i denne runde",
+        "continue_button": "Fortsæt",
+
+        "game_over": "Spillet er slut",
+        "precision": "Præcision",
+        "failures": "Fejl",
+        "skips": "Overspringninger",
+        "back_to_lobby_button": "Tilbage til lobby",
+
+        "player_reached_target_score_of": "har nået målscoren på",
+        "points": "point",
+        "no_more_songs_to_play": "Der er ikke flere sange at afspille"
+    },
+
+    "settings": {
+        "title": "Indstillinger",
+        "language": "Sprog",
+        "language_tooltip": "Ændrer spillets sprog ud fra de tilgængelige muligheder",
+        "theme": "Tema",
+        "theme_tooltip": "Ændrer spillets farvetema"
+    },
+
+    "album_library": {
+        "select_all": "Vælg alle",
+        "deselect_all": "Fravælg alle"
+    },
+
+    "players": {
+        "input_placeholder": "Spillernavn"
+    },
+
+    "game_config": {
+        "guess_points": "Point for gæt",
+        "guess_points_tooltip": "Antal point tildelt for at gætte en sang korrekt",
+        "fail_penalty": "Straf for fejl",
+        "fail_penalty_tooltip": "Antal point trukket fra ved mislykket gæt af en sang",
+        "skip_penalty": "Straf for overspringning",
+        "skip_penalty_tooltip": "Antal point trukket fra ved tryk på knappen «Spring over»",
+        "playback_type": "Afspilningstype",
+        "playback_type_tooltip": "Startpunkt for sangafspilningen",
+        "playback_type_options": {
+            "random-start": "Tilfældig start",
+            "from-start": "Fra starten"
+        },
+        "target_score": "Målscore",
+        "target_score_tooltip": "Pointantal en spiller skal nå for at vinde spillet"
+    },
+
+    "song_selector": {
+        "no_songs_found": "Ingen sange fundet",
+        "search_placeholder": "Søg efter sange..."
+    },
+
+    "common": {
+        "loading": "Indlæser",
+        "seg": "sek"
+    }
+}

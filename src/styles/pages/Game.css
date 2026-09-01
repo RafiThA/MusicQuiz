@@ -1,0 +1,453 @@
+.game {
+
+    width: 100dvw;
+    height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    background: linear-gradient(to bottom, var(--darkest-theme-color) 50%, #000000);
+}
+
+.game h1 {
+
+    font-size: 2.5rem;
+
+    background: linear-gradient(to bottom, var(--light-theme-color), var(--app-theme-color));
+    background-clip: text;
+    color: transparent;
+
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.game .subtitle {
+
+    font-size: 1.5rem;
+
+    color: white;
+    font-weight: 600;
+
+    padding-bottom: 1rem;
+}
+
+.game .parent {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    overflow: hidden;
+
+    height: 100%;
+    width: auto;
+
+    gap: 1rem;
+
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+.game .child {
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+
+    height: 100%;
+    width: 100%;
+
+    border-radius: 1rem;
+
+    padding: 1rem 1.5rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+
+    overflow: hidden;
+}
+
+.game .child.left {
+    
+    width: 30%;
+
+    gap: 1rem;
+}
+
+.game .child.right {
+
+    width: 70%;
+
+    overflow: visible !important;
+
+    gap: 1rem;
+}
+
+.game .section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+
+    overflow: hidden;
+
+    height: 100%;
+    width: 100%;
+}
+
+.game .parent .child .divider {
+
+    height: 4rem;
+    background: transparent;
+}
+
+.game .parent .child .section .players {
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+
+    overflow-y: auto;
+
+    height: 100%;
+    width: 100%;
+
+    gap: 1rem;
+}
+
+.game .parent .child .section .player {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+
+    padding: 0.5rem 1rem;
+
+    border-radius: 3rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.game .parent .child .section .player.current {
+
+    background: color-mix(in srgb, var(--app-theme-color) 10%, transparent);
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    border: 1px solid color-mix(in srgb, var(--lighter-theme-color) 10%, transparent);
+
+    transition: width 0.1s linear;
+
+    padding: 0.75rem 1rem;
+}
+
+.game .parent .child .section .failed-songs {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+
+    overflow-y: auto;
+
+    height: 100%;
+    width: 100%;
+
+    padding: 0.5rem 1rem;
+
+    border-radius: 1rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.game .parent .child .section .failed-songs h1 {
+
+    font-size: 1.5rem;
+
+    color: white;
+
+    font-weight: 600;
+
+    padding:  1rem 0rem;
+}
+
+.game .parent .child .section .failed-songs .songs {
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+
+    gap: 1rem;
+
+    width: 100%;
+
+    overflow: hidden;
+    overflow-y: auto;
+
+    padding: 0.5rem;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.game .parent .child .section .failed-songs .songs span {
+    
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+
+    border-radius: 0.5rem;
+
+    padding: 0.5rem 1rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+
+    animation: popUp 0.25s ease-in-out;
+}
+
+.game .parent .child .section.time {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    overflow: hidden;
+
+    gap: 0.5rem;
+
+    width: 100%;
+    height: auto;
+
+    padding: 0.5rem;
+
+    border-radius: 1rem;
+
+    border: 1px solid color-mix(in srgb, var(--lighter-theme-color) 10%, transparent);
+
+    background: color-mix(in srgb, white 10%, transparent);
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
+
+.game .parent .child .section.time span {
+
+    width: 4rem;
+
+    font-size: 1rem;
+
+    color: white;
+    font-weight: 600;
+
+    text-wrap: nowrap;
+}
+
+.game .parent .child .section .timeline {
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    width: 100%;
+    height: 2rem;
+
+    padding: 0rem 0.5rem;
+
+    border-radius: 3rem;
+
+    overflow: hidden;
+
+    background: color-mix(in srgb, white 10%, transparent);
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+}
+
+.game .parent .child .section .timeline .current {
+
+    width: 100%;
+    height: 1rem;
+
+    border-radius: 3rem;
+
+    transition: width 0.1s linear;
+
+    background: color-mix(in srgb, var(--app-theme-color) 40%, white);
+    
+}
+
+.game .parent .child .section .timeline .current.playing {
+    box-shadow: 0px 0px 10px 2px color-mix(in srgb, var(--light-theme-color) 50%, transparent);
+}
+
+.game .parent .child .section.selector {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+    overflow: visible;
+
+    width: 100%;
+    height: auto;
+
+    padding: 0.5rem 1rem;
+
+    border-radius: 1rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+    
+    transition: all 0.3s ease-in-out;
+
+}
+
+.game .parent .child .section.buttons {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+
+    padding: 0.5rem 1rem;
+
+    border-radius: 1rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+    
+    transition: all 0.3s ease-in-out;
+
+}
+
+.game .parent .child .section.buttons .play-skip-buttons,
+.game .parent .child .section.buttons .other-buttons {
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: auto;
+
+    gap: 1rem;
+}
+
+.game .parent .child .section.buttons .play-skip-buttons .play {
+    
+    width: 70%;
+    margin-right: 0rem;
+}
+
+.game .parent .child .section.buttons .play-skip-buttons .skip {
+    
+    width: 30%;
+    margin-left: 0rem;
+}
+
+.game .parent .child .section.buttons .guess {
+    
+    width: 100%;
+    margin-top: 0rem;
+}
+
+.game .parent .child .section.visualizer {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    flex: 1;
+    width: 100%;
+    height: auto;
+
+    padding: 0.5rem 1rem;
+
+    border-radius: 1rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.game-loading {
+    
+    position: absolute;
+
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+
+    width: 100dvw;
+    height: 100dvh;
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+

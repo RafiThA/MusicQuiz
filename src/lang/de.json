@@ -1,0 +1,84 @@
+{
+    "home": {
+        "choose_album": "Alben auswählen",
+        "play_button": "Spielen"
+    },
+
+    "lobby": {
+        "back_button": "Zurück",
+        "start_game_button": "Spiel starten",
+        "players": "Spieler",
+        "selected_albums": "Ausgewählte Alben",
+        "game_config": "Spielkonfiguration"
+    },
+
+    "game": {
+        "round": "Runde",
+        "attempts": "Versuche",
+        "skipped": "Übersprungen",
+        "guess_button": "Raten",
+        "skip_button": "Überspringen",
+        "exit_button": "Beenden",
+
+        "summary": "Zusammenfassung",
+        "correct_guess_label": "RICHTIG GERATEN",
+        "incorrect_guess_label": "FALSCH GERATEN",
+        "the_song_was": "Der Song war",
+        "total_points_earned_this_round": "In dieser Runde erzielte Gesamtpunkte",
+        "continue_button": "Weiter",
+
+        "game_over": "Spiel vorbei",
+        "precision": "Genauigkeit",
+        "failures": "Fehler",
+        "skips": "Übersprünge",
+        "back_to_lobby_button": "Zurück zur Lobby",
+
+        "player_reached_target_score_of": "hat die Zielpunktzahl erreicht von",
+        "points": "Punkte",
+        "no_more_songs_to_play": "Keine weiteren Songs verfügbar"
+    },
+
+    "settings": {
+        "title": "Einstellungen",
+        "language": "Sprache",
+        "language_tooltip": "Ändert die Sprache des Spiels aus den verfügbaren Optionen",
+        "theme": "Design",
+        "theme_tooltip": "Ändert das Farbschema des Spiels"
+    },
+
+    "album_library": {
+        "select_all": "Alle auswählen",
+        "deselect_all": "Alle abwählen"
+    },
+
+    "players": {
+        "input_placeholder": "Spielername"
+    },
+
+    "game_config": {
+        "guess_points": "Punkte für Treffer",
+        "guess_points_tooltip": "Anzahl der Punkte, die für das richtige Erraten eines Songs vergeben werden",
+        "fail_penalty": "Strafe bei Fehlversuch",
+        "fail_penalty_tooltip": "Anzahl der Punkte, die bei einem falschen Versuch abgezogen werden",
+        "skip_penalty": "Strafe für Überspringen",
+        "skip_penalty_tooltip": "Anzahl der Punkte, die beim Drücken der Taste »Überspringen« abgezogen werden",
+        "playback_type": "Wiedergabeart",
+        "playback_type_tooltip": "Startpunkt der Song-Wiedergabe",
+        "playback_type_options": {
+            "random-start": "Zufälliger Start",
+            "from-start": "Vom Anfang"
+        },
+        "target_score": "Zielpunktzahl",
+        "target_score_tooltip": "Punktzahl, die ein Spieler erreichen muss, um das Spiel zu gewinnen"
+    },
+
+    "song_selector": {
+        "no_songs_found": "Keine Songs gefunden",
+        "search_placeholder": "Songs suchen..."
+    },
+
+    "common": {
+        "loading": "Wird geladen",
+        "seg": "Sek."
+    }
+}

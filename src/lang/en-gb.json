@@ -1,0 +1,84 @@
+{
+    "home": {
+        "choose_album": "Albums Selection",
+        "play_button": "Play"
+    },
+
+    "lobby": {
+        "back_button": "Back",
+        "start_game_button": "Start Game",
+        "players": "Players",
+        "selected_albums": "Selected Albums",
+        "game_config": "Game Configuration"
+    },
+
+    "game": {
+        "round": "Round",
+        "attempts": "Attempts",
+        "skipped": "Skipped",
+        "guess_button": "Guess",
+        "skip_button": "Skip",
+        "exit_button": "Exit",
+
+        "summary": "Summary",
+        "correct_guess_label": "CORRECT GUESS",
+        "incorrect_guess_label": "INCORRECT GUESS",
+        "the_song_was": "The song was",
+        "total_points_earned_this_round": "Total points earned in this round",
+        "continue_button": "Continue",
+
+        "game_over": "Game Over",
+        "precision": "Precision",
+        "failures": "Failures",
+        "skips": "Skips",
+        "back_to_lobby_button": "Back to Lobby",
+
+        "player_reached_target_score_of": "has reached the target score of",
+        "points": "points",
+        "no_more_songs_to_play": "No more songs to play"
+    },
+
+    "settings": {
+        "title": "Configuration",
+        "language": "Language",
+        "language_tooltip": "Changes the language of the game from the available options",
+        "theme": "Theme",
+        "theme_tooltip": "Changes the color theme of the game"
+    },
+
+    "album_library": {
+        "select_all": "Select All",
+        "deselect_all": "Deselect All"
+    },
+
+    "players": {
+        "input_placeholder": "Player name"
+    },
+
+    "game_config": {
+        "guess_points": "Guess Points",
+        "guess_points_tooltip": "Amount of points awarded for correctly guessing a song",
+        "fail_penalty": "Penalty for Failing",
+        "fail_penalty_tooltip": "Amount of points deducted for failing to guess a song",
+        "skip_penalty": "Penalty for Skipping",
+        "skip_penalty_tooltip": "Amount of points deducted for pressing the <<Skip>> button",
+        "playback_type": "Playback Type",
+        "playback_type_tooltip": "Start point of the song playback",
+        "playback_type_options": {
+            "random-start": "Random Start",
+            "from-start": "From Start"
+        },
+        "target_score": "Target Score",
+        "target_score_tooltip": "Score that a player must reach to win the game"
+    },
+
+    "song_selector": {
+        "no_songs_found": "No songs found",
+        "search_placeholder": "Search songs..."
+    },
+
+    "common": {
+        "loading": "Loading",
+        "seg": "seg"
+    }
+}

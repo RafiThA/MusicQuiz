@@ -1,0 +1,84 @@
+{
+    "home": {
+        "choose_album": "Выбор альбомов",
+        "play_button": "Играть"
+    },
+
+    "lobby": {
+        "back_button": "Назад",
+        "start_game_button": "Начать игру",
+        "players": "Игроки",
+        "selected_albums": "Выбранные альбомы",
+        "game_config": "Настройки игры"
+    },
+
+    "game": {
+        "round": "Раунд",
+        "attempts": "Попытки",
+        "skipped": "Пропущено",
+        "guess_button": "Угадать",
+        "skip_button": "Пропустить",
+        "exit_button": "Выйти",
+
+        "summary": "Итоги",
+        "correct_guess_label": "ПРАВИЛЬНЫЙ ОТВЕТ",
+        "incorrect_guess_label": "НЕПРАВИЛЬНЫЙ ОТВЕТ",
+        "the_song_was": "Это была песня",
+        "total_points_earned_this_round": "Всего очков за этот раунд",
+        "continue_button": "Продолжить",
+
+        "game_over": "Игра окончена",
+        "precision": "Точность",
+        "failures": "Ошибки",
+        "skips": "Пропуски",
+        "back_to_lobby_button": "Вернуться в лобби",
+
+        "player_reached_target_score_of": "достиг(ла) целевого счета в",
+        "points": "очков",
+        "no_more_songs_to_play": "Больше нет песен для игры"
+    },
+
+    "settings": {
+        "title": "Настройки",
+        "language": "Язык",
+        "language_tooltip": "Изменяет язык игры из доступных вариантов",
+        "theme": "Тема",
+        "theme_tooltip": "Изменяет цветовую тему игры"
+    },
+
+    "album_library": {
+        "select_all": "Выбрать все",
+        "deselect_all": "Снять выделение"
+    },
+
+    "players": {
+        "input_placeholder": "Имя игрока"
+    },
+
+    "game_config": {
+        "guess_points": "Очки за угадывание",
+        "guess_points_tooltip": "Количество очков, начисляемых за правильно угаданную песню",
+        "fail_penalty": "Штраф за ошибку",
+        "fail_penalty_tooltip": "Количество очков, снимаемых при неудачной попытке угадать песню",
+        "skip_penalty": "Штраф за пропуск",
+        "skip_penalty_tooltip": "Количество очков, снимаемых за нажатие кнопки «Пропустить»",
+        "playback_type": "Тип воспроизведения",
+        "playback_type_tooltip": "Начальная точка воспроизведения песни",
+        "playback_type_options": {
+            "random-start": "С случайного момента",
+            "from-start": "С начала"
+        },
+        "target_score": "Целевой счет",
+        "target_score_tooltip": "Счет, который должен набрать игрок для победы в игре"
+    },
+
+    "song_selector": {
+        "no_songs_found": "Песни не найдены",
+        "search_placeholder": "Поиск песен..."
+    },
+
+    "common": {
+        "loading": "Загрузка",
+        "seg": "сек"
+    }
+}

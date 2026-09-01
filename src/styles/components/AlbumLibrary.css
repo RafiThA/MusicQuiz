@@ -1,0 +1,422 @@
+.loading-album-library {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+
+    color: white;
+    font-weight: 600;
+
+    height: 60%;
+    width: 60%;
+
+    border-radius: 1rem;
+
+    padding: 1.5rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+}
+
+.album-library {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    align-items: left;
+    justify-items: center;
+
+    gap: 1rem;
+
+    overflow: auto;
+
+    height: 60%;
+    width: 60%;
+
+    border-radius: 1rem;
+
+    padding: 1.5rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+
+    scrollbar-gutter: stable;
+}
+
+.album-library .album-item {
+
+    position: relative; /* For buttons */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 140px;
+    height: 140px;
+
+    background: color-mix(in srgb, white 10%, transparent);
+
+    border-radius: 1rem;
+
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+
+    z-index: 0;
+}
+
+.album-library .album-item img {
+
+    border-radius: 0.5rem;
+
+    width: 120px;
+    height: auto;
+
+    transition: all 0.15s ease-in-out;
+
+    aspect-ratio: 1/1;
+
+    border: 0px solid transparent;
+
+    cursor: pointer;
+}
+
+.album-library .album-item img.selected {
+
+    border: 2px solid var(--light-theme-color);
+    box-shadow: 0px 0px 10px var(--lighter-theme-color);
+}
+
+.album-library .album-item img:hover {
+
+    filter: contrast(0.8);
+}
+
+/* ADD BUTTON */
+.album-library .add-box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 140px;
+    height: 140px;
+
+    aspect-ratio: 1/1;
+
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+}
+
+.album-library i {
+
+    padding: 0.5rem;
+    
+    font-size: 4rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+
+    color: white;
+    border-radius: 3rem;
+
+    transition: all 0.15s ease-in-out;
+
+    cursor: pointer;
+}
+
+.album-library i:hover {
+
+    background: color-mix(in srgb, white 20%, transparent);
+}
+
+/* ITEM BUTTON */
+.album-library .edit-button {
+
+    position: absolute;
+    top: 0.25rem;
+    left: 0.25rem;
+
+    border-radius: 3rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+
+    transition: all 0.15s ease-in-out;
+
+    z-index: 1;
+
+    cursor: pointer;
+}
+
+.album-library .edit-button:hover {
+
+    background: color-mix(in srgb, white 20%, transparent);
+}
+
+
+.album-library .edit-button i {
+
+    font-size: 0.75rem;
+
+    padding: 0.25rem;
+
+    color: white;
+
+    background: none;
+    border: none;
+}
+
+.album-library .remove-button {
+    
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+
+    border-radius: 3rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+
+    transition: all 0.15s ease-in-out;
+
+    z-index: 1;
+
+    cursor: pointer;
+}
+
+.album-library .remove-button:hover {
+
+    background: color-mix(in srgb, white 20%, transparent);
+}
+
+.album-library .remove-button i {
+
+    font-size: 0.75rem;
+
+    padding: 0.25rem;
+
+    color: white;
+
+    background: none;
+    border: none;
+}
+
+/* BUTTONS VISIBILITY LOGIC */
+
+.edit-button, .remove-button {
+
+    opacity: 0;
+}
+
+.album-library .album-item:hover .edit-button,
+.album-library .album-item:hover .remove-button {
+
+    opacity: 1;
+}
+
+/* SONGS LIST */
+
+.song-list {
+
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+
+    background-color: color-mix(in srgb, black 30%, transparent);
+    
+    z-index: 1000;
+}
+
+.song-list.bg {
+    
+    animation: fadeIn 0.25s ease-in-out;
+}
+
+.song-list.bg.closing {
+
+    animation: fadeOut 0.25s ease-in-out forwards;
+}
+
+.song-list .content {
+
+    position: absolute;
+
+    overflow: hidden;
+    
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    top: 8rem;
+    left: 8rem;
+    right: 8rem;
+    bottom: 8rem;
+
+    border-radius: 1rem;
+
+    background-color: var(--darkest-theme-color);
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+
+    animation: popUp 0.25s ease-in-out;
+
+    z-index: 1001;
+}
+
+.song-list .content .body {
+    
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 1.5rem 1.5rem;
+}
+
+.song-list .content .section {
+
+    flex-shrink: 0; /* Maintain size */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem 0rem;
+}
+
+.song-list .content .section .song-remove-button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0.5rem;
+
+    height: 2.5rem;
+    aspect-ratio: 1/1;
+
+    border-radius: 3rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+
+    transition: all 0.15s ease-in-out;
+
+    cursor: pointer;
+}
+
+.song-list .content .section .song-remove-button:hover {
+
+    background: color-mix(in srgb, white 20%, transparent);
+}
+
+.song-list .content .divider {
+
+    flex-shrink: 0; /* Maintain size */
+
+    width: 100%;
+    height: 1px;
+
+    background: color-mix(in srgb, white 5%, transparent);
+}
+
+.song-list .content .header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem 1.5rem;
+
+    border-bottom: 1px solid color-mix(in srgb, white 5%, transparent);
+    
+}
+
+.song-list .content.closing {
+
+    animation: popOut 0.25s ease-in-out forwards;
+}
+
+.song-list .content .close-button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0.5rem;
+
+    height: 2.5rem;
+    aspect-ratio: 1/1;
+
+    transition: all 0.15s ease-in-out;
+
+    border-radius: 0.5rem;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.song-list .content .close-button:hover {
+
+    background: color-mix(in srgb, white 10%, transparent);
+}
+
+.album-library-buttons {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+
+    gap: 1rem;
+
+    outline: none;
+
+    width: 60%;
+    height: auto;
+}
+
+.album-library-buttons button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-size: 0.75rem;
+
+    width: fit-content;
+    
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 0.25rem;
+
+    border-radius: 1rem;
+
+    background: color-mix(in srgb, white 10%, transparent);
+    border: 1px solid color-mix(in srgb, white 10%, transparent);
+
+    cursor: pointer;
+
+    transition: all 0.15s ease-in-out;
+}
+
+.album-library-buttons button:hover {
+
+    background: color-mix(in srgb, white 30%, transparent);
+}

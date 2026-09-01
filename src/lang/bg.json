@@ -1,0 +1,84 @@
+{
+    "home": {
+        "choose_album": "Избор на албуми",
+        "play_button": "Играй"
+    },
+
+    "lobby": {
+        "back_button": "Назад",
+        "start_game_button": "Започни игра",
+        "players": "Играчи",
+        "selected_albums": "Избрани албуми",
+        "game_config": "Настройки на играта"
+    },
+
+    "game": {
+        "round": "Рунд",
+        "attempts": "Опити",
+        "skipped": "Пропуснати",
+        "guess_button": "Познай",
+        "skip_button": "Пропусни",
+        "exit_button": "Изход",
+
+        "summary": "Обобщение",
+        "correct_guess_label": "ПРАВИЛЕН ОТГОВОР",
+        "incorrect_guess_label": "ГРЕШЕН ОТГОВОР",
+        "the_song_was": "Песента беше",
+        "total_points_earned_this_round": "Общо спечелени точки в този рунд",
+        "continue_button": "Продължи",
+
+        "game_over": "Край на играта",
+        "precision": "Точност",
+        "failures": "Грешки",
+        "skips": "Пропускания",
+        "back_to_lobby_button": "Назад към лобито",
+
+        "player_reached_target_score_of": "достигна целевия резултат от",
+        "points": "точки",
+        "no_more_songs_to_play": "Няма повече песни за пускане"
+    },
+
+    "settings": {
+        "title": "Настройки",
+        "language": "Език",
+        "language_tooltip": "Променя езика на играта от наличните опции",
+        "theme": "Тема",
+        "theme_tooltip": "Променя цветовата тема на играта"
+    },
+
+    "album_library": {
+        "select_all": "Избери всички",
+        "deselect_all": "Отмаркирай всички"
+    },
+
+    "players": {
+        "input_placeholder": "Име на играча"
+    },
+
+    "game_config": {
+        "guess_points": "Точки за познаване",
+        "guess_points_tooltip": "Брой точки, присъждани за правилно позната песен",
+        "fail_penalty": "Наказание за грешка",
+        "fail_penalty_tooltip": "Брой точки, отнемани при непозната песен",
+        "skip_penalty": "Наказание за пропускане",
+        "skip_penalty_tooltip": "Брой точки, отнемани при натискане на бутона «Пропусни»",
+        "playback_type": "Тип възпроизвеждане",
+        "playback_type_tooltip": "Начална точка на възпроизвеждане на песента",
+        "playback_type_options": {
+            "random-start": "Случайно начало",
+            "from-start": "От началото"
+        },
+        "target_score": "Целеви резултат",
+        "target_score_tooltip": "Резултат, който играчът трябва да достигне, за да спечели играта"
+    },
+
+    "song_selector": {
+        "no_songs_found": "Няма намерени песни",
+        "search_placeholder": "Търсене на песни..."
+    },
+
+    "common": {
+        "loading": "Зареждане",
+        "seg": "сек"
+    }
+}

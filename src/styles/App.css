@@ -1,0 +1,120 @@
+@import './Animations.css';
+
+/* GLOBAL CONFIGURATION */
+:root {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+
+    /* App custom theme */
+    --app-theme-color: var(--theme-color, #7B2CBF);
+    
+    --light-theme-color: color-mix(in srgb, var(--app-theme-color) 50%, #ffffff);
+    --lighter-theme-color: color-mix(in srgb, var(--app-theme-color) 30%, #ffffff);
+    --lightest-theme-color: color-mix(in srgb, var(--app-theme-color) 15%, #ffffff);
+
+    --dark-theme-color: color-mix(in srgb, var(--app-theme-color) 50%, #000000);
+    --darker-theme-color: color-mix(in srgb, var(--app-theme-color) 30%, #000000);
+    --darkest-theme-color: color-mix(in srgb, var(--app-theme-color) 15%, #000000);
+
+    /* Disable text selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    /* Common colors */
+    --app-green: #4CAF50;
+    --app-red: #f55656;
+}
+
+/* ICONS */
+.bi {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+/* App custom scrollbar */
+::-webkit-scrollbar {
+
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-button {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+
+    padding: 2px;
+    border-radius: 1rem;
+
+    transition: all 0.5s ease-in-out;
+    background: color-mix(white 30%, transparent);
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: color-mix(white 50%, transparent);
+}
+
+::-webkit-scrollbar-track {
+
+    background: transparent;
+}
+
+::-webkit-scrollbar-track-piece {
+
+    background: transparent;
+}
+
+::-webkit-scrollbar-corner {
+
+    background: transparent;
+}
+
+::-webkit-resizer {
+
+    background: transparent;
+}
+
+/* INPUTS */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* BUTTONS */
+button {
+    outline: none;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: var(--app-theme-color);
+}
+
+/* LOADING */
+.app-loading {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100dvw;
+    height: 100dvh;
+
+    background: linear-gradient(to bottom, var(--darkest-theme-color) 50%, #000000);
+}

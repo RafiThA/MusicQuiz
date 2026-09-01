@@ -1,0 +1,84 @@
+{
+    "home": {
+        "choose_album": "Seleccion de Álbumes",
+        "play_button": "Jugar"
+    },
+
+    "lobby": {
+        "back_button": "Volver",
+        "start_game_button": "Iniciar Juego",
+        "players": "Jugadores",
+        "selected_albums": "Álbumes Seleccionados",
+        "game_config": "Configuración del Juego"
+    },
+
+    "game": {
+        "round": "Ronda",
+        "attempts": "Intentos",
+        "skipped": "Saltado",
+        "guess_button": "Adivinar",
+        "skip_button": "Saltar",
+        "exit_button": "Salir",
+
+        "summary": "Resumen",
+        "correct_guess_label": "CANCIÓN ADIVINADA",
+        "incorrect_guess_label": "CANCIÓN FALLADA",
+        "the_song_was": "La canción era",
+        "total_points_earned_this_round": "Puntos totales obtenidos en esta ronda",
+        "continue_button": "Continuar",
+
+        "game_over": "Juego Terminado",
+        "precision": "Precisión",
+        "failures": "Fallos",
+        "skips": "Saltos",
+        "back_to_lobby_button": "Volver al Lobby",
+
+        "player_reached_target_score_of": "ha alcanzado el puntaje objetivo de",
+        "points": "puntos",
+        "no_more_songs_to_play": "No hay más canciones para reproducir"
+    },
+
+    "settings": {
+        "title": "Configuración",
+        "language": "Idioma",
+        "language_tooltip": "Cambia el idioma del juego de entre los disponibles",
+        "theme": "Tema",
+        "theme_tooltip": "Cambia el color del tema del juego"
+    },
+
+    "album_library": {
+        "select_all": "Seleccionar Todo",
+        "deselect_all": "Deseleccionar Todo"
+    },
+
+    "players": {
+        "input_placeholder": "Nombre del jugador"
+    },
+
+    "game_config": {
+        "guess_points": "Puntos por Adivinar",
+        "guess_points_tooltip": "Cantidad de puntos que se otorgan por adivinar correctamente una canción",
+        "fail_penalty": "Penalización por Fallar",
+        "fail_penalty_tooltip": "Cantidad de puntos que se restan por fallar una canción",
+        "skip_penalty": "Penalización por Saltar",
+        "skip_penalty_tooltip": "Cantidad de puntos que se restan por pulsar el botón <<Saltar>>",
+        "playback_type": "Tipo de Reproducción",
+        "playback_type_tooltip": "Punto de comienzo de reporducción de la canción",
+        "playback_type_options": {
+            "random-start": "Aleatorio",
+            "from-start": "Desde el Inicio"
+        },
+        "target_score": "Puntaje Objetivo",
+        "target_score_tooltip": "Puntaje que debe alcanzar un jugador para ganar el juego"
+    },
+
+    "song_selector": {
+        "no_songs_found": "No se encontraron canciones",
+        "search_placeholder": "Buscar canciones..."
+    },
+
+    "common": {
+        "loading": "Cargando",
+        "seg": "seg"
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "home": {
+        "choose_album": "Selecionar Álbuns",
+        "play_button": "Jogar"
+    },
+
+    "lobby": {
+        "back_button": "Voltar",
+        "start_game_button": "Iniciar Jogo",
+        "players": "Jogadores",
+        "selected_albums": "Álbuns Selecionados",
+        "game_config": "Configuração do Jogo"
+    },
+
+    "game": {
+        "round": "Rodada",
+        "attempts": "Tentativas",
+        "skipped": "Puladas",
+        "guess_button": "Adivinhar",
+        "skip_button": "Pular",
+        "exit_button": "Sair",
+
+        "summary": "Resumo",
+        "correct_guess_label": "RESPOSTA CORRETA",
+        "incorrect_guess_label": "RESPOSTA INCORRETA",
+        "the_song_was": "A música era",
+        "total_points_earned_this_round": "Total de pontos ganhos nesta rodada",
+        "continue_button": "Continuar",
+
+        "game_over": "Fim de Jogo",
+        "precision": "Precisão",
+        "failures": "Erros",
+        "skips": "Pulos",
+        "back_to_lobby_button": "Voltar ao Lobby",
+
+        "player_reached_target_score_of": "alcançou a pontuação meta de",
+        "points": "pontos",
+        "no_more_songs_to_play": "Não há mais músicas para tocar"
+    },
+
+    "settings": {
+        "title": "Configurações",
+        "language": "Idioma",
+        "language_tooltip": "Altera o idioma do jogo a partir das opções disponíveis",
+        "theme": "Tema",
+        "theme_tooltip": "Altera o tema de cores do jogo"
+    },
+
+    "album_library": {
+        "select_all": "Selecionar Tudo",
+        "deselect_all": "Desmarcar Tudo"
+    },
+
+    "players": {
+        "input_placeholder": "Nome do jogador"
+    },
+
+    "game_config": {
+        "guess_points": "Pontos por Acerto",
+        "guess_points_tooltip": "Quantidade de pontos concedida ao adivinhar corretamente uma música",
+        "fail_penalty": "Penalidade por Erro",
+        "fail_penalty_tooltip": "Quantidade de pontos deduzida ao errar uma música",
+        "skip_penalty": "Penalidade por Pular",
+        "skip_penalty_tooltip": "Quantidade de pontos deduzida ao pressionar o botão \"Pular\"",
+        "playback_type": "Tipo de Reprodução",
+        "playback_type_tooltip": "Ponto de início da reprodução da música",
+        "playback_type_options": {
+            "random-start": "Início Aleatório",
+            "from-start": "Do Início"
+        },
+        "target_score": "Pontuação Meta",
+        "target_score_tooltip": "Pontuação que um jogador deve alcançar para vencer o jogo"
+    },
+
+    "song_selector": {
+        "no_songs_found": "Nenhuma música encontrada",
+        "search_placeholder": "Pesquisar músicas..."
+    },
+
+    "common": {
+        "loading": "Carregando",
+        "seg": "seg"
+    }
+}
