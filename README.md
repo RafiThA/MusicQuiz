@@ -4,6 +4,23 @@
 
 Music Quiz is a game where players can guess songs locally. It allows you to customise the game and play in multiplayer mode.
 
+<p align="center">
+    <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white
+    " alt="React 19">
+    <img src="https://img.shields.io/badge/TypeScript-6-3178C6?style=flat-square&logo=typescript&logoColor=white
+    " alt="Typescript 6">
+    <img src="https://img.shields.io/badge/Electron-43.4.1-61DBFB?style=flat-square&logo=electron&logoColor=white
+    " alt="Electron 43.4.1">
+    <img src="https://img.shields.io/badge/Vite-7.3.6-6B1EB9?style=flat-square&logo=vite&logoColor=white
+    " alt="Vite 7.3.6">
+    <img src="https://img.shields.io/badge/Electron%20Builder-26.15.3-4E9F3D?style=flat-square&logo=electron%20builder&logoColor=white
+    " alt="Electron Builder 26.15.3">
+    <img src="https://img.shields.io/badge/SQLlite-3-0F80CC?style=flat-square&logo=sqlite&logoColor=white&link=https%3A%2F%2Fbuymeacoffee.com%2Frafaelmolln
+    " alt="SQLlite3">
+    <br>
+    <a href="https://buymeacoffee.com/rafaelmolln"><img src="https://img.shields.io/badge/Buymeacoffee-%E2%99%A5-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=white" alt="Buymeacoffee"></a>
+</p>
+
 ## Features
 
 ### Upload your own music
@@ -156,3 +173,5 @@ If there are no more songs left to play (as songs that have already been played 
 MIT License under Copyright (c) 2026 Rafael Molleja Jiménez
 
 _This game was made and designed by a human_
+
+<div align="center"><a href="https://buymeacoffee.com/rafaelmolln"><img src="./public/images/bmac_banner.png" width="80%"></a></div>
